@@ -22,7 +22,7 @@ import auditRoutes from "./server/routes/auditRoutes";
 import analyticsRoutes from "./server/routes/analyticsRoutes";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Middleware
 app.use(cors({ origin: true, credentials: true }));
