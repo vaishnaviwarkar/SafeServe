@@ -1,0 +1,6 @@
+{
+  "name": "SafeServe – Smart Food Rescue & Safety Management Platform",
+  "description": "SafeServe connects verified food donors, NGOs, and volunteers to rescue surplus food safely and transparently with smart matching, food safety assessments, QR/OTP/GPS verification, and real-time tracking.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
