@@ -138,18 +138,9 @@ The exact directory structure may vary depending on the current project version.
 
 ### 1. Clone the Repository
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
-```
-
 ### 2. Install Dependencies
 
 Run `npm install` inside each project directory that contains a `package.json` file.
-
-```bash
-npm install
-```
 
 ### 3. Configure Environment Variables
 
@@ -160,10 +151,6 @@ PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
-
-Add any additional email, Cloudinary, or mapping credentials required by the implementation.
-
-**Important:** Use your project's actual variable names and never commit real passwords, API keys, or secrets to GitHub.
 
 ### 4. Start the Application
 
@@ -179,10 +166,3 @@ The correct startup commands and ports depend on the project's current configura
 
 SafeServe is a functional academic prototype with core donation, verification, and rescue workflows. IoT integration, large-scale performance testing, and advanced AI capabilities are proposed future enhancements.
 
-## 📜 License
-
-Add the appropriate license information for your project.
-
-## 🙏 Acknowledgements
-
-Developed as an academic project to explore technology-driven food rescue, waste reduction, and community support.
